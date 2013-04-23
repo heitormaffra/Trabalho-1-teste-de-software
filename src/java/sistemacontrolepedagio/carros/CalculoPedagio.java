@@ -24,7 +24,7 @@ public class CalculoPedagio implements Serializable{
     private CarroPasseio carroPasseio;
     private Moto moto;
     
-    private double calcularPedagio(Object tipoVeiculo){
+    public double calcularPedagio(Object tipoVeiculo){
         if(tipoVeiculo instanceof Caminhao) {
             caminhao = new Caminhao();
             

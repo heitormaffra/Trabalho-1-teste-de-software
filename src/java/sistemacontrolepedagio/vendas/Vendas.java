@@ -10,4 +10,8 @@ package sistemacontrolepedagio.vendas;
  */
 public class Vendas {
     
+    public double calcularTroco(double valorPago, double valorPedagio){
+        return valorPago - valorPedagio;
+    }
+    
 }
